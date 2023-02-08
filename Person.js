@@ -11,8 +11,8 @@ class Person {
         this.bags = []
     }
     // Include an addBag method
-    addBag() {
-        this.bags.push(Bag);
+    addBag(newBag) {
+        this.bags.push(newBag);
     }
 
 }
